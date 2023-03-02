@@ -8,7 +8,7 @@
 - #### O que é Lógica de programação?
 
   - Lógica de programação é a técnica utilizada para desenvolver instruções em uma sequência para atingir determinado objetivo.
-    <br /><br />[Exemplo algoritmo](./logica.js)
+    <br /><br />[Exemplo lógica](./logica.js)
 
 - #### Operadores lógicos e matemáticos
   - Operadores são símbolos especiais que envolvem um ou mais operandos com a finalidade de produzir um determinado resultado.
