@@ -100,3 +100,12 @@
     <br /><br /> [Exemplo laço de repetição](./laco-repeticao.js)
 
 - #### Funções
+
+  Funções são blocos onde podemos escrever código para que sejam executados apenas quando a função for chamada, assim podemos criar instruções de código, calculos e lógicas que apenas serão executadas em um determinado momento.
+
+  - Uma função geralmente é criada com o uso da palavra reservada "function".
+  - Após o ES6, também podemos utilizar funções com "arrow function".
+  - Funções podem receber parametros para gerenciar dentro do seu bloco.
+  - Os parametros da função podem assumir qualquer tipo de dado.
+  - Parametros que são recebidos da forma mais comum, sem chaves, devem seguir a mesma ordem que é recebida pela função na hora de informar os valores para a função(este tipo de parametro é quando temos certeza que não precisaremos mais do que dois valores para a função).
+  - Parametros com chaves é a forma mais segura de trabalhar, pois não precisamos nos preocupar com a ordem como os valores são informados(este tipo de parametro é recomendado para qualquer tipo de função, pois ele torna a identificação dos parametros mais fácil).
