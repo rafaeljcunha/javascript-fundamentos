@@ -52,8 +52,8 @@
   - string - É o tipo de dado que simboliza um texto e uma string deve conter aspas duplas ou simples envolvendo um conteúdo.
   - number - É o tipo de dado que representará os valores numéricos.
   - object - Um valor null, um array e um objeto em sí, podem assumir o tipo object.
-  - null - É um tipo de dado onde geralmente é definido por um programador, null quer dizer que algo existe, mas não possui valor algum.
-  - undefined - É um tipo de dado onde geralmente informa que algo não existe ou que seu valor é indefinido.
+  - null - Geralmente é definido por um programador, null quer dizer que algo existe, mas não possui valor algum.
+  - undefined - Geralmente informa que algo não existe ou que seu valor é indefinido.
 
   - Podemos verificar o tipo de uma variável utilizando o método typeof do javascript
 
@@ -77,10 +77,26 @@
   - Boolean ou !! - Converte um valor para o tipo lógico.
     <br /><br /> [Exemplo casting de tipo](./casting-tipos.js)
 
-- #### Condicionais (if else, switch)
+- #### Condicionais (if/else if/else, switch)
+
+  No Javascript e em outras linguagens, utilizamos as condicionais para aplicarmos determinadas ações baseado em críterios, por exemplo, quando esquecemos nossa senha e clicamos para recuperar, o site provavelmente deve pedir seu email para enviar a redefinição de senha, e você precisará informar o seu email para enviar a solicitação, neste caso, é bem provavel que existe um if/else ali, para que possa verificar se existe um email, caso exista (if), você poderá solicitar uma redefinição, caso não exista (else), uma mensagem de erro pode aparecer, por exemplo: "Informe o seu email para redefinição de senha".
+
+  - if/else if/else - É utilizado para quando precisamos verificar determinadas condições para aplicarmos determinadas ações, também podemos encadear varias verificações.
+  - switch - É utilizado para a mesma finalidade do if/else, no entanto, é recomendado para quando precisamos aplicar varias ações para um mesmo valor que pode ser diferente em alguns casos.
+    <br /><br /> [Exemplo condicionais](./if-else-switch.js)
 
 - #### Operador ternário
 
+  Operadores ternário possuem a mesma finalidade do if/else if/else, porém de uma forma mais resumida.
+
+  - Não é recomendado utilizar ternário quando precisamos verificar muitas condições, para isso, devemos utilizar if/else ou switch se possível.
+    <br /><br /> [Exemplo condicionais](./ternario.js)
+
 - #### Laços de repetições (for, for in, for of, while)
+
+  Laços de repetições são indicados para quando precisamos fazer um loop em arrays, também podemos determinar condições para realizarmos determinadas ações.
+
+  - Com a chegada da versão do javascript, ECMAScript 6 (ES6) em 2015, os métodos map, forEach, filter e etc; tem sido cada vez mais usados no lugar destas estruturas de repetição.
+    <br /><br /> [Exemplo laço de repetição](./laco-repeticao.js)
 
 - #### Funções
