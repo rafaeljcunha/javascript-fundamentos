@@ -79,7 +79,7 @@
 
 - #### Condicionais (if/else if/else, switch)
 
-  No Javascript e em outras linguagens, utilizamos as condicionais para aplicarmos determinadas ações baseado em críterios, por exemplo, quando esquecemos nossa senha e clicamos para recuperar, o site provavelmente deve pedir seu email para enviar a redefinição de senha, e você precisará informar o seu email para enviar a solicitação, neste caso, é bem provavel que existe um if/else ali, para que possa verificar se existe um email, caso exista (if), você poderá solicitar uma redefinição, caso não exista (else), uma mensagem de erro pode aparecer, por exemplo: "Informe o seu email para redefinição de senha".
+  No Javascript e em outras linguagens, utilizamos as condicionais para aplicarmos determinadas ações baseado em críterios, por exemplo, quando esquecemos nossa senha e clicamos para recuperar, o site provavelmente deve pedir seu email para enviar a redefinição de senha, e você precisará informar o seu email para enviar a solicitação, neste caso, é bem provavel que existe um if/else ali, para que possa verificar se existe um email, caso exista (if), você poderá solicitar uma redefinição, caso não exista (else), uma mensagem de erro pode aparecer, por exemplo: `Informe o seu email para redefinição de senha`.
 
   - if/else if/else - É utilizado para quando precisamos verificar determinadas condições para aplicarmos determinadas ações, também podemos encadear varias verificações.
   - switch - É utilizado para a mesma finalidade do if/else, no entanto, é recomendado para quando precisamos aplicar varias ações para um mesmo valor que pode ser diferente em alguns casos.
@@ -103,8 +103,8 @@
 
   Funções são blocos onde podemos escrever código para que sejam executados apenas quando a função for chamada, assim podemos criar instruções de código, calculos e lógicas que apenas serão executadas em um determinado momento.
 
-  - Uma função geralmente é criada com o uso da palavra reservada "function".
-  - Após o ES6, também podemos utilizar funções com "arrow function".
+  - Uma função geralmente é criada com o uso da palavra reservada `function`.
+  - Após o ES6, também podemos utilizar funções com `arrow function`.
   - Funções podem receber parametros para gerenciar dentro do seu bloco.
   - Os parametros da função podem assumir qualquer tipo de dado.
   - Parametros que são recebidos da forma mais comum, sem chaves, devem seguir a mesma ordem que é recebida pela função na hora de informar os valores para a função(este tipo de parametro é quando temos certeza que não precisaremos mais do que dois valores para a função).
