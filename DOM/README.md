@@ -30,9 +30,11 @@ Agora que já conhecemos sobre seletores, podemos manipular elementos CSS, texto
 Eventos nos permitem interagir com o usuário e com a página web em si. Os eventos são importantes para capturar um click, uma alteração, a posição do ponteiro do mouse e etc; e isso torna mais divertido interagir com o DOM.
 
 Podemos utilizar os eventos apenas acessando seu atributo no DOM e atribuindo uma função ao atributo:
+<br />
 elemento.onfocus = executarAoFocar
 
 Ou podemos usar um método que ficará escutando os eventos em um elemento:
+<br />
 elemento.addEventListener("focus", executarAoFocar)
 
 - Principais eventos:
