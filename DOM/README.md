@@ -26,3 +26,17 @@ Agora que já conhecemos sobre seletores, podemos manipular elementos CSS, texto
 <br /><br /> [Exemplo manipulação de elementos](./manipulacao-elementos.js)
 
 #### Eventos
+
+Eventos nos permitem interagir com o usuário e com a página web em si. Os eventos são importantes para capturar um click, uma alteração, a posição do ponteiro do mouse e etc; e isso torna mais divertido interagir com o DOM.
+
+Podemos utilizar os eventos apenas acessando seu atributo no DOM e atribuindo uma função ao atributo:
+elemento.onfocus = executarAoFocar
+
+Ou podemos usar um método que ficará escutando os eventos em um elemento:
+elemento.addEventListener("focus", executarAoFocar)
+
+- Principais eventos:
+  - onclick ou click - Este evento é disparado quando o usuário clica sobre um elemento HTML, como o botão, por exemplo.
+  - onkeyup ou keyup - Este evento é disparado quando um tecla é deixa de ser pressionada.
+  - onchange ou change - Este evento é disparado para cada alteração que ocorrer em um elemento
+  - onfocus ou focus - Este evento é disparado quando um elemento é focado.
