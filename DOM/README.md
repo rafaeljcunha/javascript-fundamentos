@@ -22,7 +22,7 @@
 
 #### Manipulação de elementos
 
-Agora que já conhecemos sobre seletores, podemos manipular elementos CSS utilizando os selector, para isso, basta pegarmos a referencia do elemento através do selector e acessar a propriedade style do elemento e modificar o atributo que quisermos.
+Agora que já conhecemos sobre seletores, podemos manipular elementos CSS, textos e etc; utilizando os seletores para isso, basta pegarmos a referencia do elemento através do seletor e acessar a propriedade que desejar do elemento e modificar.
 <br /><br /> [Exemplo manipulação de elementos](./manipulacao-elementos.js)
 
 #### Eventos
