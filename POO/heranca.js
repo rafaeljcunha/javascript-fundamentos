@@ -56,7 +56,9 @@ function main() {
   caderno.usar();
   console.log("----------------------");
 
-  array.push(Object.assign({}, tenis), Object.assign({}, caderno));
+  const transformarTenisEmObjeto = Object.assign({}, tenis);
+  const transformarCadernoEmObjeto = Object.assign({}, caderno);
+  array.push(transformarTenisEmObjeto, transformarCadernoEmObjeto);
   console.log(array);
 }
 
