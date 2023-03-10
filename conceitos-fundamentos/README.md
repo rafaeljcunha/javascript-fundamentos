@@ -37,9 +37,9 @@
 
 - #### Variáveis e Escopo de variáveis (var, let e const)
 
-  - var - Declara uma variável, opcionalmente, inicializando-a com um valor, este tipo de várivel pode receber um novo valor quando necessário.
-  - let - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor, este tipo de várivel pode receber um novo valor quando necessário dentro do seu escopo.
-  - const - Declara uma constante de escopo de bloco, apenas de leitura, ou seja, não podemos atribuir um novo valor a uma constante.
+  - `var` - Declara uma variável, opcionalmente, inicializando-a com um valor, este tipo de várivel pode receber um novo valor quando necessário.
+  - `let` - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor, este tipo de várivel pode receber um novo valor quando necessário dentro do seu escopo.
+  - `const` - Declara uma constante de escopo de bloco, apenas de leitura, ou seja, não podemos atribuir um novo valor a uma constante.
     <br /><br /> [Exemplo variáveis](./variaveis.js)
 
 - #### Concatenação e template literals
@@ -49,15 +49,15 @@
 
 - #### Tipos de dados (string, number, null, undefined, object, boolean)
 
-  - string - É o tipo de dado que simboliza um texto e uma string deve conter aspas duplas ou simples envolvendo um conteúdo.
-  - number - É o tipo de dado que representará os valores numéricos.
-  - object - Um valor null, um array e um objeto em sí, podem assumir o tipo object.
-  - null - Geralmente é definido por um programador, null quer dizer que algo existe, mas não possui valor algum.
-  - undefined - Geralmente informa que algo não existe ou que seu valor é indefinido.
+  - `string` - É o tipo de dado que simboliza um texto e uma string deve conter aspas duplas ou simples envolvendo um conteúdo.
+  - `number` - É o tipo de dado que representará os valores numéricos.
+  - `object` - Um valor `null`, um `array` e um `objeto` em sí, podem assumir o tipo object.
+  - `null` - Geralmente é definido por um programador, null quer dizer que algo existe, mas não possui valor algum.
+  - `undefined` - Geralmente informa que algo não existe ou que seu valor é indefinido.
 
-  - Podemos verificar o tipo de uma variável utilizando o método typeof do javascript
+  - Podemos verificar o tipo de uma variável utilizando o método `typeof` do javascript
 
-  O Javascript possui tipagem fraca, ou seja, ele não infere tipos como no typescript, sendo assim, uma variável pode receber qualquer tipo de dado sem que ocorram erros de tipagem
+  O `Javascript possui tipagem fraca`, ou seja, ele não infere tipos como no typescript, sendo assim, uma variável pode receber qualquer tipo de dado sem que ocorram erros de tipagem
   <br /><br /> [Exemplo tipos de dados](./tipos-dados.js)
 
 - #### Estrutura de dados (Array)
@@ -72,17 +72,17 @@
 - #### Casting de tipos (toString, parseInt, parseFloat)
 
   - No Javascript conseguimos converter tipos de dados para outros tipos de dados, como por exemplo, converter um valor númerico para uma string, ou um valor booleano e vice-versa.
-  - toString ou String - Converte um valor para o tipo string.
-  - Number - Converte um valor para o tipo númerico.
-  - Boolean ou !! - Converte um valor para o tipo lógico.
+  - `toString ou String` - Converte um valor para o tipo string.
+  - `Number` - Converte um valor para o tipo númerico.
+  - `Boolean` ou `!!` - Converte um valor para o tipo lógico.
     <br /><br /> [Exemplo casting de tipo](./casting-tipos.js)
 
 - #### Condicionais (if/else if/else, switch)
 
   No Javascript e em outras linguagens, utilizamos as condicionais para aplicarmos determinadas ações baseado em críterios, por exemplo, quando esquecemos nossa senha e clicamos para recuperar, o site provavelmente deve pedir seu email para enviar a redefinição de senha, e você precisará informar o seu email para enviar a solicitação, neste caso, é bem provavel que existe um if/else ali, para que possa verificar se existe um email, caso exista (if), você poderá solicitar uma redefinição, caso não exista (else), uma mensagem de erro pode aparecer, por exemplo: `Informe o seu email para redefinição de senha`.
 
-  - if/else if/else - É utilizado para quando precisamos verificar determinadas condições para aplicarmos determinadas ações, também podemos encadear varias verificações.
-  - switch - É utilizado para a mesma finalidade do if/else, no entanto, é recomendado para quando precisamos aplicar varias ações para um mesmo valor que pode ser diferente em alguns casos.
+  - `if/else if/else` - É utilizado para quando precisamos verificar determinadas condições para aplicarmos determinadas ações, também podemos encadear varias verificações.
+  - `switch` - É utilizado para a mesma finalidade do if/else, no entanto, é recomendado para quando precisamos aplicar varias ações para um mesmo valor que pode ser diferente em alguns casos.
     <br /><br /> [Exemplo condicionais](./if-else-switch.js)
 
 - #### Operador ternário

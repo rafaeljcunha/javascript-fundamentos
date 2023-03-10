@@ -12,12 +12,12 @@
 - O que é um seletor?
   Seletores são utilizados para informar ao DOM qual elemento querer encontrar dentro do documento, podemos informar um elemento HTML, uma class ou um id para os métodos que fazem essa busca.
 - Principais métodos seletores
-  - querySelector - É utilizado para buscar apenas uma referência, seja por class ou id.
-  - querySelector - É utilizado para buscar várias referências, seja por class ou id.
-  - getElementById - É utilizado para buscar apenas uma referência por id.
-  - getElementsByClassName - É utilizado para buscar apenas uma referência por class.
-  - getElementsByName - É utilizado para buscar apenas uma referência por name, geralmente utilizado para inputs que possuem a propriedade name.
-  - getElementsByTagName - É utilizado para buscar apenas uma referência pela tag HTML em si.
+  - `querySelector` - É utilizado para buscar apenas uma referência, seja por class ou id.
+  - `querySelector` - É utilizado para buscar várias referências, seja por class ou id.
+  - `getElementById` - É utilizado para buscar apenas uma referência por id.
+  - `getElementsByClassName` - É utilizado para buscar apenas uma referência por class.
+  - `getElementsByName` - É utilizado para buscar apenas uma referência por name, geralmente utilizado para inputs que possuem a propriedade name.
+  - `getElementsByTagName` - É utilizado para buscar apenas uma referência pela tag HTML em si.
     <br /><br /> [Exemplo seletores](./selectors.js)
 
 #### Manipulação de elementos
@@ -38,7 +38,7 @@ Ou podemos usar um método que ficará escutando os eventos em um elemento:
 elemento.addEventListener("focus", executarAoFocar)
 
 - Principais eventos:
-  - onclick ou click - Este evento é disparado quando o usuário clica sobre um elemento HTML, como o botão, por exemplo.
-  - onkeyup ou keyup - Este evento é disparado quando um tecla é deixa de ser pressionada.
-  - onchange ou change - Este evento é disparado para cada alteração que ocorrer em um elemento
-  - onfocus ou focus - Este evento é disparado quando um elemento é focado.
+  - `onclick ou click` - Este evento é disparado quando o usuário clica sobre um elemento HTML, como o botão, por exemplo.
+  - `onkeyup ou keyup` - Este evento é disparado quando um tecla é deixa de ser pressionada.
+  - `onchange ou change` - Este evento é disparado para cada alteração que ocorrer em um elemento
+  - `onfocus ou focus` - Este evento é disparado quando um elemento é focado.

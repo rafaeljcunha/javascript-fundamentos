@@ -67,5 +67,5 @@ console.log("---------------------------------");
 const somaDosIndices = pegarApenasOsIndices.reduce(
   (valorAcumulado, valorAtual) => valorAcumulado + valorAtual.index,
   0
-);
+); // Somando o valor do índices do array
 console.log(`Valor das somas dos índices do array: ${somaDosIndices}`);
