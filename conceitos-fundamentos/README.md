@@ -15,18 +15,21 @@
   - Difereça entre == e === no Javascript
   - No Javascript, devemos tomar cuidado ao utilizarmos os operados ==, !=, === e !==, pois o javascript interpreta cada um de forma diferente, apesar de parecer serem a mesma coisa.
 
-| Operador | Operação         | Exemplo |
-| -------- | ---------------- | ------- |
-| >        | Maior que        | a > b   |
-| <        | Menor que        | a < b   |
-| >=       | Maior ou igual a | a >= b  |
-| <=       | Menor ou igual a | a <= b  |
-| ==       | Igual a          | a == b  |
-| !=       | Diferente de     | a != b  |
-| ===      | Idêntico a       | a === b |
-| !==      | Não idêntico a   | a !== b |
-| &&       | E/and            | a && b  |
-| ll       | Ou/or            | a ll b  |
+| Operador | Operação               | Exemplo |
+| -------- | ---------------------- | ------- |
+| >        | Maior que              | a > b   |
+| <        | Menor que              | a < b   |
+| >=       | Maior ou igual a       | a >= b  |
+| <=       | Menor ou igual a       | a <= b  |
+| ==       | Igual a                | a == b  |
+| !=       | Diferente de           | a != b  |
+| ===      | Idêntico a             | a === b |
+| !==      | Não idêntico a         | a !== b |
+| &&       | E/and                  | a && b  |
+| ll       | Ou/or                  | a ll b  |
+| %        | Resto da divisão       | 2 % 0   |
+| +=       | Soma e atribuição      | a += b  |
+| -=       | Subtração e atribuição | 2 % 0   |
 
 <br /> [Exemplo operadores](./operadore-matematicos.js)
 
@@ -34,6 +37,11 @@
 
   - O objeto console, fornece acesso ao console de debug, utilizamos ele principalmente para verificar valores e etc; de forma que possamos visualizar no terminal ou no console da web.
     <br /><br /> [Exemplo console](./console.js)
+
+- #### Comentários
+
+  - O comentário deixa um trecho do código desabilitado quando a IDE executar seu código, serve para quando queremos executar uma função, mas não queremos executar outra, por exemplo. Além de ser muito utilizado para informar o que um determinado trecho de código ou função esta fazendo, para que o(a) programador(a) possa saber o que aquilo faz sem ter que ler e entender todo o código para somente depois realizar a manutenção.
+    <br /><br /> [Exemplo comentário](./comentarios.js)
 
 - #### Variáveis e Escopo de variáveis (var, let e const)
 
@@ -60,7 +68,7 @@
   O `Javascript possui tipagem fraca`, ou seja, ele não infere tipos como no typescript, sendo assim, uma variável pode receber qualquer tipo de dado sem que ocorram erros de tipagem
   <br /><br /> [Exemplo tipos de dados](./tipos-dados.js)
 
-- #### Estrutura de dados (Array)
+- #### Array
 
   - Um Array é definido como um conjunto de dados e que pode conter vários tipos de dados, sendo booleanos, numéricos, strings, objetos e etc.
   - Um array não necessáriamente deve sempre conter dados, pois os dados podem ser adicionados posteriormente no array.

@@ -35,3 +35,9 @@ function parametroComChave({
 }) {
   return valor1 + valor2; // Aqui calculará a soma dos valores
 }
+
+function imprimirNome(valor) {
+  return valor;
+}
+
+imprimirNome("Hello World");
