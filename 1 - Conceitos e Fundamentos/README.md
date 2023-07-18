@@ -68,15 +68,6 @@
   O `Javascript possui tipagem fraca`, ou seja, ele não infere tipos como no typescript, sendo assim, uma variável pode receber qualquer tipo de dado sem que ocorram erros de tipagem
   <br /><br /> [Exemplo tipos de dados](./tipos-dados.js)
 
-- #### Array
-
-  - Um Array é definido como um conjunto de dados e que pode conter vários tipos de dados, sendo booleanos, numéricos, strings, objetos e etc.
-  - Um array não necessáriamente deve sempre conter dados, pois os dados podem ser adicionados posteriormente no array.
-  - Arrays possuem vários métodos para que você possa manipular seu conteúdo, desde remover ou adicionar um item, ordenar os itens conforme um critério, filtrar certos itens e etc.
-
-  Pense em um único livro, um livro é um objeto, agora imagina uma bolsa cheia de livros, isto seria um array, onde a bolsa seria o array e todos os livros seriam os objetos deste array.
-  <br /><br /> [Exemplo array](./array.js)
-
 - #### Casting de tipos (toString, parseInt, parseFloat)
 
   - No Javascript conseguimos converter tipos de dados para outros tipos de dados, como por exemplo, converter um valor númerico para uma string, ou um valor booleano e vice-versa.
@@ -99,13 +90,6 @@
 
   - Não é recomendado utilizar ternário quando precisamos verificar muitas condições, para isso, devemos utilizar if/else ou switch se possível.
     <br /><br /> [Exemplo condicionais](./ternario.js)
-
-- #### Laços de repetições (for, for in, for of, while)
-
-  Laços de repetições são indicados para quando precisamos fazer um loop em arrays, também podemos determinar condições para realizarmos determinadas ações.
-
-  - Com a chegada da versão do javascript, ECMAScript 6 (ES6) em 2015, os métodos map, forEach, filter e etc; tem sido cada vez mais usados no lugar destas estruturas de repetição.
-    <br /><br /> [Exemplo laço de repetição](./laco-repeticao.js)
 
 - #### Funções
 
