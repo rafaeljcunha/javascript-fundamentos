@@ -29,4 +29,4 @@ O Javascript é uma linguagem multiparadigmas, onde podemos escrever código seg
     - `Objeto literal estático` - É quando os valores das propriedades do objeto são inseridos de forma que não serão alterados, ou seja, retornará sempre o mesmo valor.
     - `Objeto literal valor modificado` - É quando alteramos o valor de uma ou mais propriedades do objeto, neste contexto, o valor original será substituído pelo novo valor.
     - `Objeto literal inserindo valores` - É quando inserimos propriedades que não existem no objeto, ao objeto.
-      [Exemplo objetos literais](./objetos-literais.js)
+      <br /><br />[Exemplo objetos literais](./objetos-literais.js)
