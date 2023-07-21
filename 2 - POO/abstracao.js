@@ -36,6 +36,10 @@ function main() {
   contaBancaria.sacarDinheiro(60); // Sacar dinheiro
 
   console.log(`Seu saldo é: ${contaBancaria.consultarSaldo()}`); // Consultar Saldo
+
+  contaBancaria.depositarDinheiro(1550);
+
+  console.log(`Seu saldo é: ${contaBancaria.consultarSaldo()}`); // Consultar Saldo
 }
 
 main();

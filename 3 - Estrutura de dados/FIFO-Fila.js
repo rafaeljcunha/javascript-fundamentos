@@ -6,7 +6,7 @@ class FIFO {
   }
 
   removerElementoDaFila() {
-    if (this.quantidadeElementosNaFila() > 0) {
+    if (this._quantidadeElementosNaFila() > 0) {
       this.array.shift();
     }
   }
@@ -15,7 +15,7 @@ class FIFO {
     return this.array;
   }
 
-  quantidadeElementosNaFila() {
+  _quantidadeElementosNaFila() {
     return this.array.length;
   }
 

@@ -29,7 +29,8 @@
 | ll       | Ou/or                  | a ll b  |
 | %        | Resto da divisão       | 2 % 0   |
 | +=       | Soma e atribuição      | a += b  |
-| -=       | Subtração e atribuição | 2 % 0   |
+| -=       | Subtração e atribuição | 2 -= 0  |
+| =        | Atribuição             | a = 5   |
 
 <br /> [Exemplo operadores](./operadore-matematicos.js)
 
@@ -101,3 +102,4 @@
   - Os parametros da função podem assumir qualquer tipo de dado.
   - Parametros que são recebidos da forma mais comum, sem chaves, devem seguir a mesma ordem que é recebida pela função na hora de informar os valores para a função(este tipo de parametro é quando temos certeza que não precisaremos mais do que dois valores para a função).
   - Parametros com chaves é a forma mais segura de trabalhar, pois não precisamos nos preocupar com a ordem como os valores são informados(este tipo de parametro é recomendado para qualquer tipo de função, pois ele torna a identificação dos parametros mais fácil).
+    <br /><br /> [Exemplo funções](./functions.js)

@@ -5,8 +5,8 @@ for (let [index] of array.entries()) {
 }
 
 console.log("---------------------------------");
-for (let item in array) {
-  console.log(`for in: ${item}`);
+for (let index in array) {
+  console.log(`for in: ${index}`);
 }
 
 console.log("---------------------------------");

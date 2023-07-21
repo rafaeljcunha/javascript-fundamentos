@@ -8,6 +8,10 @@ array.push("Higor"); // Adicionando um item no array
 console.log(`Agora o array possui os seguintes valores: ${array}`);
 
 console.log("---------------------------------");
+array.sort(); // Orderna o array em ordem alfabetica
+console.log(array);
+
+console.log("---------------------------------");
 const contagemArray = array.length; // Conta a quantidade de itens no Array
 console.log(`Este array possui: ${contagemArray} itens`);
 

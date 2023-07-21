@@ -42,6 +42,11 @@ function main() {
   const tenis = new Tenis({ cor: "Verde", genero: "Masculino", tamanho: 40 });
   console.log(tenis);
   tenis.usar();
+  const tenisAzul = new Tenis({
+    cor: "Azul",
+    genero: "Masculino",
+    tamanho: 40,
+  });
 
   console.log("----------------------");
   const caderno = new Caderno({
@@ -58,7 +63,12 @@ function main() {
 
   const transformarTenisEmObjeto = Object.assign({}, tenis);
   const transformarCadernoEmObjeto = Object.assign({}, caderno);
-  array.push(transformarTenisEmObjeto, transformarCadernoEmObjeto);
+  const transformarTenisAzulEmObjeto = Object.assign({}, tenisAzul);
+  array.push(
+    transformarTenisEmObjeto,
+    transformarCadernoEmObjeto,
+    transformarTenisAzulEmObjeto
+  );
   console.log(array);
 }
 
